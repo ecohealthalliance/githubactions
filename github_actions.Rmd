@@ -1,0 +1,104 @@
+---
+title: "Workflow Automation with Github Actions"
+subtitle: ""  
+author: "Ernest Guevarra"
+date: '7 December 2021'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: ["right", "bottom"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_light(
+  #base_color = "#509935",
+  base_color = "#000000",
+  base_font_size = "22px",
+  title_slide_background_color = "#FFFFFF",
+  title_slide_background_image = "images/ecohealth_title_background_4by3.png",
+  title_slide_background_size = "contain",
+  #title_slide_text_color = "#509935",
+  title_slide_text_color = "#000000",
+  background_image = "images/ecohealth_slide_background_4by3.png",
+  header_font_google = google_font("Fira Sans"),
+  text_font_google = google_font("Fira Sans Condensed"),
+  code_font_google = google_font("Fira Mono"),
+  code_font_size = "0.7rem",
+  text_slide_number_font_size = "1em",
+  link_color = "#509935"
+)
+```
+
+### Outline
+
+* Brief overview of **GitHub Actions**
+
+* Using `targets` and `renv` within a containerised **GitHub Actions** workflow
+
+* The `container-workflow-template` repository as a template for future projects
+
+---
+
+### GitHub Actions
+
+* `GitHub Actions` allows **automation**, **customisation**, and **execution** of your research project workflows right in your GitHub repository.
+
+* Composed of a job or a number of jobs. The job/s are then composed of steps that control the order in which actions are run in order to complete a job/s. This workflow is scheduled or triggered by a specific event and runs on what is called a runner - a server that has the GitHub Actions runner application installed - that is either hosted by GitHub, or self-hosted on your own machines.
+
+* This whole workflow including the event trigger and the runner on which the workflow will run in are specified and detailed using a workflow .yml file that is saved inside a directory named .github within your GitHub repository in which you want to use GitHub Actions on.
+
+---
+
+background-image: url()
+background-color: #FFFFFF
+
+### GitHub Actions
+
+<img src=https://miro.medium.com/max/2617/1*8mUtip6z_oydfLi4P86KUw.png />
+
+
+---
+
+class: center, middle
+
+### Using `targets` and `renv` within a containerised **GitHub Actions** workflow
+
+---
+
+class: center, middle
+
+# Questions?
+
+---
+
+class: center, middle
+
+### The `container-workflow-template` repository as a template for future projects
+
+---
+
+class: center, middle
+
+# Questions?
+
+---
+
+class: center, middle
+
+# Thank you!
+
+Slides can be viewed at https://ecohealthalliance.github.io/githubactions or PDF version downloaded at https://ecohealthalliance.github.io/githubactions/githubactions.pdf
+
+R scripts for slides available at https://github.com/ecohealthalliance/githubactions
+
+Repository for `container-workflow-template` at https://github.com/ecohealthalliance/container-workflow-template
