@@ -66,7 +66,6 @@ background-color: #FFFFFF
 
 <img src=https://miro.medium.com/max/2617/1*8mUtip6z_oydfLi4P86KUw.png />
 
-
 ---
 
 class: center, middle
