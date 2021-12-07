@@ -45,7 +45,7 @@ style_mono_light(
 
 * Using `targets` and `renv` within a containerised **GitHub Actions** workflow
 
-* The `container-workflow-template` repository as a template for future projects
+* The `container-template` repository as a template for future projects
 
 ---
 
@@ -82,7 +82,7 @@ class: center, middle
 
 class: center, middle
 
-### The `container-workflow-template` repository as a template for future projects
+### The `container-template` repository as a template for future projects
 
 ---
 
@@ -100,4 +100,4 @@ Slides can be viewed at https://ecohealthalliance.github.io/githubactions or PDF
 
 R scripts for slides available at https://github.com/ecohealthalliance/githubactions
 
-Repository for `container-workflow-template` at https://github.com/ecohealthalliance/container-workflow-template
+Repository for `container-template` at https://github.com/ecohealthalliance/container-template
